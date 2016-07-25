@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController2">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9ly-re-9nZ">
+                    <rect key="frame" x="30" y="85" width="260" height="30"/>
+                    <animations/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <state key="normal" title="$ 5"/>
+                    <connections>
+                        <action selector="action1:" destination="-1" eventType="touchUpInside" id="7Jj-Fs-m1Y"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KCC-qp-moZ">
+                    <rect key="frame" x="30" y="125" width="260" height="30"/>
+                    <animations/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <state key="normal" title="$ 10"/>
+                    <connections>
+                        <action selector="action2:" destination="-1" eventType="touchUpInside" id="ee3-zi-aUf"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="55v-an-4AV">
+                    <rect key="frame" x="30" y="165" width="260" height="30"/>
+                    <animations/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <state key="normal" title="$ 20"/>
+                    <connections>
+                        <action selector="action3:" destination="-1" eventType="touchUpInside" id="yVb-7x-olF"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gvd-lm-zop">
+                    <rect key="frame" x="30" y="205" width="260" height="30"/>
+                    <animations/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <state key="normal" title="$ 30"/>
+                    <connections>
+                        <action selector="action4:" destination="-1" eventType="touchUpInside" id="3mw-n2-Pgd"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uDn-7Y-cgP">
+                    <rect key="frame" x="127" y="254" width="66" height="30"/>
+                    <animations/>
+                    <color key="backgroundColor" red="0.27243204510000002" green="0.62470846130000002" blue="0.82380971859999996" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="66" id="nnf-LP-njj"/>
+                    </constraints>
+                    <state key="normal" title="Next"/>
+                    <connections>
+                        <action selector="nextAction:" destination="-1" eventType="touchUpInside" id="r3r-iB-Gy9"/>
+                    </connections>
+                </button>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="KCC-qp-moZ" firstAttribute="top" secondItem="9ly-re-9nZ" secondAttribute="bottom" constant="10" id="6e8-os-gtG"/>
+                <constraint firstItem="9ly-re-9nZ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="30" id="GAG-rF-mHG"/>
+                <constraint firstItem="55v-an-4AV" firstAttribute="leading" secondItem="9ly-re-9nZ" secondAttribute="leading" id="GqQ-Ej-7x7"/>
+                <constraint firstItem="55v-an-4AV" firstAttribute="top" secondItem="KCC-qp-moZ" secondAttribute="bottom" constant="10" id="Jbt-7C-b0F"/>
+                <constraint firstItem="uDn-7Y-cgP" firstAttribute="top" secondItem="Gvd-lm-zop" secondAttribute="bottom" constant="19" id="YWE-vr-2Vo"/>
+                <constraint firstItem="Gvd-lm-zop" firstAttribute="trailing" secondItem="9ly-re-9nZ" secondAttribute="trailing" id="Zfm-UT-2cW"/>
+                <constraint firstItem="KCC-qp-moZ" firstAttribute="trailing" secondItem="9ly-re-9nZ" secondAttribute="trailing" id="e6O-KT-g2i"/>
+                <constraint firstItem="KCC-qp-moZ" firstAttribute="leading" secondItem="9ly-re-9nZ" secondAttribute="leading" id="hlX-D0-rcb"/>
+                <constraint firstItem="Gvd-lm-zop" firstAttribute="leading" secondItem="9ly-re-9nZ" secondAttribute="leading" id="isl-Gf-YQt"/>
+                <constraint firstItem="Gvd-lm-zop" firstAttribute="top" secondItem="55v-an-4AV" secondAttribute="bottom" constant="10" id="px7-Bn-GhL"/>
+                <constraint firstItem="9ly-re-9nZ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="85" id="pz1-Lc-0Cv"/>
+                <constraint firstItem="55v-an-4AV" firstAttribute="trailing" secondItem="9ly-re-9nZ" secondAttribute="trailing" id="rqw-DO-ZRk"/>
+                <constraint firstItem="uDn-7Y-cgP" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="sBM-nK-FiZ"/>
+                <constraint firstAttribute="trailing" secondItem="9ly-re-9nZ" secondAttribute="trailing" constant="30" id="yeK-lH-07x"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="227" y="207"/>
+        </view>
+    </objects>
+</document>
